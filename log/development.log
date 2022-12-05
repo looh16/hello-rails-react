@@ -5,3 +5,48 @@ Processing by Rails::WelcomeController#index as HTML
 Completed 200 OK in 14ms (Views: 3.2ms | ActiveRecord: 0.0ms | Allocations: 4578)
 
 
+Started GET "/" for ::1 at 2022-12-05 15:11:32 +0200
+Processing by RootController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering root/index.html.erb within layouts/application
+  Rendered root/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 282)
+  Rendered layout layouts/application.html.erb (Duration: 342.4ms | Allocations: 69293)
+Completed 200 OK in 346ms (Views: 343.6ms | ActiveRecord: 0.0ms | Allocations: 72216)
+
+
+Started GET "/" for ::1 at 2022-12-05 15:12:40 +0200
+Processing by RootController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering root/index.html.erb within layouts/application
+  Rendered root/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 282)
+  Rendered layout layouts/application.html.erb (Duration: 60.0ms | Allocations: 22937)
+Completed 200 OK in 63ms (Views: 61.2ms | ActiveRecord: 0.0ms | Allocations: 25861)
+
+
+Started GET "/" for ::1 at 2022-12-05 15:12:53 +0200
+Processing by RootController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering root/index.html.erb within layouts/application
+  Rendered root/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 9)
+  Rendered layout layouts/application.html.erb (Duration: 148.6ms | Allocations: 6587)
+Completed 200 OK in 149ms (Views: 149.1ms | ActiveRecord: 0.0ms | Allocations: 6889)
+
+
+Started GET "/" for ::1 at 2022-12-05 15:12:58 +0200
+Processing by RootController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering root/index.html.erb within layouts/application
+  Rendered root/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 3.9ms | Allocations: 2323)
+Completed 200 OK in 5ms (Views: 4.6ms | ActiveRecord: 0.0ms | Allocations: 2563)
+
+
+Started GET "/" for ::1 at 2022-12-05 15:13:00 +0200
+Processing by RootController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering root/index.html.erb within layouts/application
+  Rendered root/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 10.0ms | Allocations: 2360)
+Completed 200 OK in 11ms (Views: 10.6ms | ActiveRecord: 0.0ms | Allocations: 2600)
+
+
