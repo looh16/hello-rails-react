@@ -2030,3 +2030,36 @@ Processing by Api::V1::MessagesController#index as */*
 Completed 200 OK in 2ms (Views: 0.6ms | ActiveRecord: 0.3ms | Allocations: 768)
 
 
+Started GET "/" for ::1 at 2022-12-06 19:54:56 +0200
+  [1m[36mActiveRecord::SchemaMigration Pluck (7.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by RootController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering root/index.html.erb within layouts/application
+  Rendered root/index.html.erb within layouts/application (Duration: 0.4ms | Allocations: 282)
+  Rendered layout layouts/application.html.erb (Duration: 92.4ms | Allocations: 28610)
+Completed 200 OK in 97ms (Views: 93.9ms | ActiveRecord: 0.0ms | Allocations: 31569)
+
+
+Started GET "/api/v1/messages" for ::1 at 2022-12-06 19:54:56 +0200
+Processing by Api::V1::MessagesController#index as */*
+  [1m[36mMessage Load (0.2ms)[0m  [1m[34mSELECT "messages".* FROM "messages" ORDER BY RANDOM() LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/api/v1/messages_controller.rb:6:in `index'
+Completed 200 OK in 6ms (Views: 0.3ms | ActiveRecord: 0.6ms | Allocations: 6083)
+
+
+Started GET "/" for ::1 at 2022-12-06 19:54:58 +0200
+Processing by RootController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering root/index.html.erb within layouts/application
+  Rendered root/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 9)
+  Rendered layout layouts/application.html.erb (Duration: 2.7ms | Allocations: 2488)
+Completed 200 OK in 3ms (Views: 3.2ms | ActiveRecord: 0.0ms | Allocations: 2764)
+
+
+Started GET "/api/v1/messages" for ::1 at 2022-12-06 19:54:58 +0200
+Processing by Api::V1::MessagesController#index as */*
+  [1m[36mMessage Load (0.3ms)[0m  [1m[34mSELECT "messages".* FROM "messages" ORDER BY RANDOM() LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/api/v1/messages_controller.rb:6:in `index'
+Completed 200 OK in 3ms (Views: 0.6ms | ActiveRecord: 0.3ms | Allocations: 872)
+
+
