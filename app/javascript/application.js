@@ -1,14 +1,11 @@
-// Entry point for the build script in your package.json
-import "@hotwired/turbo-rails"
-import "./controllers"
 import React from 'react';
 import ReactDOM from 'react-dom';
+import App from './componets/App';
 
-function App() {
-  return (<h1>Hello World!</h1>);
-}
+const root = ReactDOM.createRoot(document.getElementById('root'));
 
-ReactDOM.render(
-  <App/>,
-  document.getElementById('root'),
+root.render(
+  <>
+    <App />
+  </>,
 );
