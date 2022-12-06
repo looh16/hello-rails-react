@@ -35,9 +35,7 @@
 
 ### Key Features <a name="key-features"></a>
 
-- **[User Register and Log In]**
-- **[Create transactions associated with a category]**
-- **[See the money spent on each category]**
+- **[Display random greeting]**
 
 
 ## 💻 Getting Started <a name="getting-started"></a>
